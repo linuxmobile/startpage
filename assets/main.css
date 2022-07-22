@@ -37,3 +37,44 @@ header {
     border-radius: 100%;
     margin: 0 10px;
 }
+
+.text_header {
+    font-family: josefin-sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--overlay);
+    width: 70%;
+    height: 60%;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    background-color: var(--highlight-low);
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 150px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--foam);
+    font-family: josefin-sans, sans-serif;
+    font-weight: 400;
+}

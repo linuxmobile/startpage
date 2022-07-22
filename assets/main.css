@@ -78,3 +78,21 @@ a {
     font-family: josefin-sans, sans-serif;
     font-weight: 400;
 }
+
+.time {
+    height: 180px;
+    font-family: bungee, sans-serif;
+    font-weight: 400;
+    font-size: 5.5rem;
+    color: var(--highlight-low);
+	text-shadow: -5px 5px 0px #eb6f92, -10px 10px #f6c177, -15px 15px 0px #C3A5E6, -20px 20px 0px #31748f;
+    text-align: center;
+}
+
+.text-time {
+    font-family: josefin-sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--overlay);
+    text-align: center;
+}
